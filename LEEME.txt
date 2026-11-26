@@ -1,0 +1,6 @@
+PROTOTIPO 0.1 — no publicar como producto terminado.
+Para probar: en esta carpeta ejecuta python -m http.server 8000 y abre http://localhost:8000. Pulsa Explorar sin cuenta.
+Para publicar: crea repositorio GitHub, sube los archivos de esta carpeta a la raíz y activa Pages desde Settings > Pages.
+Para cuentas reales: crea un proyecto en https://console.firebase.google.com/; registra una app web; copia su configuración pública en config.js; activa Authentication > Email/Password; añade el dominio de GitHub Pages a Authorized domains; crea Firestore y publica el contenido de firestore.rules en Rules. No incluyas claves privadas ni credenciales de administrador.
+Prueba con dos cuentas distintas antes de publicar. Verifica recuperación de contraseña y aislamiento de datos. La eliminación de cuenta y el panel administrativo aún no están implementados.
+Incluye cinco preguntas cívicas ilustrativas y tres de N-400, no el banco oficial completo. El reconocimiento de voz depende del navegador y no evalúa fonemas. No se ha probado en iPhone ni con Firebase real. No contiene simulador completo ni interfaz íntegramente bilingüe. El audio de respuestas en español queda pendiente.
